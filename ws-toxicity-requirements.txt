@@ -1,0 +1,8 @@
+langchain==0.3.19
+pytest==8.4.1
+deepeval==3.3.2
+llama-cpp-python
+detoxify==0.5.2
+Dbias==0.1.5
+loguru==0.7.3
+coverage==7.10.1

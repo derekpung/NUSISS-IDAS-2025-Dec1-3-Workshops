@@ -99,3 +99,5 @@ ML*.pdf
 IDAS*.pdf
 *.png
 ml*/
+models/
+.deepeval/
