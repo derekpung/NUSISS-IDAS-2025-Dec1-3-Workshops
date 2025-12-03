@@ -3,7 +3,7 @@ FROM python:3.13-slim
 # Set the working directory in the container
 WORKDIR /app
 # Copy only the requirements file to leverage Docker cache
-COPY requirements.txt .
+COPY ws-llmsecops2-requirements.txt requirements.txt
 # Install the dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application code to the working directory
